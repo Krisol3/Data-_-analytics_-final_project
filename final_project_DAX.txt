@@ -1,0 +1,7 @@
+FORMULAS DAX EN FINAL PROJECT.
+
+Columnas calculadas:
+Inversión = (df_education[PIB(en $)] * df_education[% inversión PIB educ.]) / 100
+
+Inv. alumno = df_education[Inversión] / df_education[población en edad escolar]
+
